@@ -1,3 +1,4 @@
 def my own map(array)
   newArray = []
-  array.map { |numbers| 
+  array.map { |numbers| -numbers.abs}
+end
