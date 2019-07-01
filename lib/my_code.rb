@@ -1,6 +1,5 @@
 def map(element1) 
-  negatives = element1.map { |n| n * -1 }
-  originals = element1.map {|n| n}
-  
-  p negatives
+  map(element1) { |n| n * -1 }
+map(element1) {|n| n}
+
 end
