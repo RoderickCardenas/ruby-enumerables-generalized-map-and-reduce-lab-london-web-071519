@@ -1,1 +1,1 @@
-map { |numbers| -numbers * -1}
+map([1, 2, 3, -9]){|n| n * -1})
