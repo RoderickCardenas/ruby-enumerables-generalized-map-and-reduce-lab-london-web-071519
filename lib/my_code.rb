@@ -1,3 +1,3 @@
 def map 
-  array.map { |n| n > 0 ? -n : n }
+  yield("I don't Know")
 end
