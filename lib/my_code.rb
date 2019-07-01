@@ -4,4 +4,4 @@ end
 
 def reduce(element1, starting_point = 0, &block)
   element1.reduce(starting_point, &block)
-  end
+end
