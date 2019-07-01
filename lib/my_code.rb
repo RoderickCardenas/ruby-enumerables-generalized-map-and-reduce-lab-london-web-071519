@@ -1,3 +1,3 @@
-def map(element1) 
-  yield(element1)
+def map(element1, &block) 
+  element1.map(&block)
 end
