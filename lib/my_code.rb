@@ -1,3 +1,3 @@
 def map(element1) 
-  yield
+  yield(element1)
 end
