@@ -1,4 +1,8 @@
 def map(element1) 
-  negativize = element1.map { |n| n * -1 }
-  original = element1.map {|n| n}
+  def negativize
+    element1.map { |n| n * -1 }
+  end
+  def  original 
+    element1.map {|n| n}
+  end
 end
